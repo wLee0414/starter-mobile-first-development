@@ -40,8 +40,10 @@ img {
 .item {
   flex: 1;
   flex-direction: column;
+  margin: 5px;
 }
 
 .item2 {
   flex: 2;
+  margin: 5px;
 }
