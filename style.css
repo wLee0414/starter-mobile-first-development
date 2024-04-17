@@ -28,15 +28,20 @@ main p {
   margin-top: 0;
 }
 
+img {
+  width: 100%;
+}
+
 .group {
   display: flex;
   flex-direction: row;
 }
 
 .item {
+  flex: 1;
   flex-direction: column;
 }
 
-img {
-  width: 100%;
+.item2 {
+  flex: 2;
 }
